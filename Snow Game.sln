@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{C0BFCA04-B22B-E6B2-B02D-C3F5992F1D13}") = "Snow Game", "Assembly-CSharp-firstpass.csproj", "{33D15938-5E41-B02D-1F7E-9620421F59AD}"
+EndProject
+Project("{C0BFCA04-B22B-E6B2-B02D-C3F5992F1D13}") = "Snow Game", "Assembly-CSharp.csproj", "{BCB0AA95-ED1E-EF1D-6484-BF6333D02F45}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{33D15938-5E41-B02D-1F7E-9620421F59AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33D15938-5E41-B02D-1F7E-9620421F59AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33D15938-5E41-B02D-1F7E-9620421F59AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33D15938-5E41-B02D-1F7E-9620421F59AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCB0AA95-ED1E-EF1D-6484-BF6333D02F45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCB0AA95-ED1E-EF1D-6484-BF6333D02F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCB0AA95-ED1E-EF1D-6484-BF6333D02F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCB0AA95-ED1E-EF1D-6484-BF6333D02F45}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+		Policies = $0
+		$0.TextStylePolicy = $1
+		$1.inheritsSet = null
+		$1.scope = text/x-csharp
+		$0.CSharpFormattingPolicy = $2
+		$2.inheritsSet = Mono
+		$2.inheritsScope = text/x-csharp
+		$2.scope = text/x-csharp
+		$0.TextStylePolicy = $3
+		$3.FileWidth = 120
+		$3.TabWidth = 4
+		$3.IndentWidth = 4
+		$3.EolMarker = Unix
+		$3.inheritsSet = Mono
+		$3.inheritsScope = text/plain
+		$3.scope = text/plain
+	EndGlobalSection
+EndGlobal
