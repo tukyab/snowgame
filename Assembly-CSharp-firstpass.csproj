@@ -46,22 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Ressources\ShadersBuiltin\Camera-DepthTexture.shader" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\BillboardTreeSnow.shader" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Includes\atsWavingGrass vertexAlpha.cginc" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorBarkRendertexSnow.shader" />
      <None Include="Assets\Cha_Data\Shader\WrapLambert.shader" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\atsV3WavingGrassBillboardSnow.shader" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\atsV3WavingGrassSnow vertexAlpha.shader" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorLeavesOptimizedSnow.shader" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\Tree.cginc" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeSnow.cginc" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\snowShaderBumpedDiffuse.shader" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Ressources\ShadersBuiltin\Camera-DepthNormalTexture.shader" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\TerrainReplacementAtsV3Snow.shader" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorLeavesRendertexSnow.shader" />
-     <None Include="Assets\Wispy Sky\ReadMe.txt" />
-     <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\TreeCreatorBarkOptimizedSnow.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
