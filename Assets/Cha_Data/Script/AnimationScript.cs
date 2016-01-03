@@ -3,26 +3,32 @@ using System.Collections;
 
 public class AnimationScript : MonoBehaviour {
 	
-	public Animation animator; 
+	public Animation KnightAnimator; 
+	public Animation SlimeAnimator; 
 	public GameObject knight; 
+	float timer= 500f; 
 	// Use this for initialization
 	void Start () {
 	
-		animator = GetComponent<Animation> (); 
+		KnightAnimator = GetComponent<Animation> (); 
 	}
 	
 	// Update is called once per frame
 	void Update () {
 		toggleAnimations (); 
+		timer -= 1.0f; 
 	}
 
 	void toggleAnimations() {
 		if (Input.GetButtonDown ("Vertical")) {
-			animator.Play ("Walk"); 
+			KnightAnimator.Play ("Walk"); 
 		}
 		if (Input.GetButtonDown ("Fire1")) {
-			animator.Play ("Attack"); 
+			KnightAnimator.Play ("Attack"); 
 		} 
+		if(timer % 10 == 0) {
+			SlimeAnimator.Play ("Attack"); 
+		}
 	}
 
 }
