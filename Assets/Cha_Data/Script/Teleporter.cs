@@ -3,7 +3,11 @@
 public class Teleporter : MonoBehaviour
 {
 	public Transform exit;
+<<<<<<< HEAD
 	static Transform last; 
+=======
+	static Transform last;
+>>>>>>> origin/master
 	
 	void OnTriggerEnter ( Collider other )
 	{
