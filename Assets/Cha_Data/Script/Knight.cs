@@ -37,6 +37,7 @@ public class Knight : MonoBehaviour {
 		if (health == 0) {
 			KnightAnimator.Play("Dead");
 			Destroy (gameObject);
+			Destroy (other.gameObject);
 		}
 	}
 
@@ -44,7 +45,8 @@ public class Knight : MonoBehaviour {
 		GUIStyle style = new GUIStyle ();
 		style.fontSize = 16;
 		style.normal.textColor = Color.blue;
-		 
+		GUI.Label (new Rect (50, 10, 250, 100), "Snow Game by Tenzin and Jenny", style);
+		GUI.Label (new Rect (50, 30, 250, 100), "'w' to move forward, mouse to turn, click to shoot", style);
 		if (health == 0) {
 			GUI.Label (new Rect (50, 50, 250, 100), "Game Over", style);
 		} else if (slime.getHealth() == 0) {
