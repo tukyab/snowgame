@@ -25,7 +25,6 @@ public class Snowman : MonoBehaviour {
 
 			GameObject snowball= Instantiate (projectile, startPos, Quaternion.identity) as GameObject; 
 			snowball.transform.LookAt(position); 
-			snowball.AddComponent<Rigidbody>();
 			snowball.GetComponent<Rigidbody>().AddForce(snowball.transform.forward *5000); 
 			ActionAudio.Play();
 		}

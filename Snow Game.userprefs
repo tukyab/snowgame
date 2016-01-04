@@ -1,12 +1,12 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cha_Data/Script/Snowman.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Cha_Data/Script/Slime.cs">
     <Files>
       <File FileName="Assets/Cha_Data/Script/KnightSnowShooter.cs" Line="1" Column="1" />
-      <File FileName="Assets/Cha_Data/Script/Snowman.cs" Line="15" Column="1" />
-      <File FileName="Assets/Cha_Data/Script/SoundEffects.cs" Line="21" Column="4" />
-      <File FileName="Assets/Cha_Data/Script/Knight.cs" Line="31" Column="38" />
-      <File FileName="Assets/Cha_Data/Script/Slime.cs" Line="39" Column="32" />
+      <File FileName="Assets/Cha_Data/Script/Snowman.cs" Line="30" Column="1" />
+      <File FileName="Assets/Cha_Data/Script/SoundEffects.cs" Line="1" Column="1" />
+      <File FileName="Assets/Cha_Data/Script/Knight.cs" Line="50" Column="34" />
+      <File FileName="Assets/Cha_Data/Script/Slime.cs" Line="43" Column="9" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

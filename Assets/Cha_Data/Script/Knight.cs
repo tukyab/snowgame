@@ -5,6 +5,7 @@ public class Knight : MonoBehaviour {
 	
 	public Animation KnightAnimator; 
 	public GameObject knight; 
+	public Slime slime;
 	int health = 100;
 	// Use this for initialization
 	void Start () {
@@ -43,10 +44,13 @@ public class Knight : MonoBehaviour {
 		GUIStyle style = new GUIStyle ();
 		style.fontSize = 16;
 		style.normal.textColor = Color.blue;
-		if (health > 0) {
-			GUI.Label(new Rect(50, 50, 250, 100), "Health:" + health, style);
+		 
+		if (health == 0) {
+			GUI.Label (new Rect (50, 50, 250, 100), "Game Over", style);
+		} else if (slime.getHealth() == 0) {
+			GUI.Label (new Rect (50, 50, 250, 100), "You Win!", style);
 		} else {
-			GUI.Label(new Rect(50, 50, 250, 100), "Game Over", style);
+			GUI.Label(new Rect(50, 50, 250, 100), "Health:" + health, style);
 		}
 	}
 }

@@ -3,7 +3,7 @@ using System.Collections;
 
 public class Slime : MonoBehaviour {
 
-	int health = 5;
+	public int health = 5;
 	public Animation SlimeAnimator; 
 	public GameObject projectile;
 	public AudioClip attackSound;
@@ -29,7 +29,6 @@ public class Slime : MonoBehaviour {
 			
 			GameObject snowball= Instantiate (projectile, startPos, Quaternion.identity) as GameObject; 
 			snowball.transform.LookAt(position); 
-			snowball.AddComponent<Rigidbody>();
 			snowball.GetComponent<Rigidbody>().AddForce(snowball.transform.forward *5000); 
 			ActionAudio.clip = attackSound;
 			ActionAudio.Play();
@@ -38,6 +37,10 @@ public class Slime : MonoBehaviour {
 		else {
 			SlimeAnimator.Play ("Wait");
 		}
+	}
+
+	public int getHealth() {
+		return health;
 	}
 
 	void OnTriggerEnter(Collider other) {
