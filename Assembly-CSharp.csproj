@@ -49,6 +49,8 @@
      <Compile Include="Assets\Cha_Data\Script\AnimationScript.cs" />
      <Compile Include="Assets\Cha_Data\Script\ScreenShot.cs" />
      <Compile Include="Assets\Cha_Data\Script\SnowShooter.cs" />
+     <Compile Include="Assets\Cha_Data\Script\SoundEffects.cs" />
+     <Compile Include="Assets\Cha_Data\Script\Teleporter.cs" />
      <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Ressources\ShadersBuiltin\Camera-DepthTexture.shader" />
      <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Trees\BillboardTreeSnow.shader" />
      <None Include="Assets\0000 terrain snow\atsV3 UnityTerrainSnow Package\Shaders\Terrain\Includes\atsWavingGrass vertexAlpha.cginc" />

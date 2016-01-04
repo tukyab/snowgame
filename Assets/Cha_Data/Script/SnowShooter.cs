@@ -3,8 +3,9 @@ using System.Collections;
 
 public class SnowShooter : MonoBehaviour
 {
-	public Rigidbody projectile;
+	public GameObject projectile;
 	public float speed = 40;
+	float distance= 100.0f;
 	float loadRate = 0.5f; // how often a new projectile can be fired
 	float timeRemaining; // how much time before the next shot can happen
 
@@ -12,13 +13,18 @@ public class SnowShooter : MonoBehaviour
 	// Update is called once per frame
 	void Update ()
 	{
-		timeRemaining -= Time.deltaTime;
-		Ray ray = Camera.main.ScreenPointToRay (Input.mousePosition); 
-		if (Input.GetButton("Fire1")&& timeRemaining <= 0 && Physics.Raycast(ray))
+		timeRemaining -= Time.deltaTime; 
+		if (Input.GetButton("Fire1")&& timeRemaining <= 0)
 		{
 			timeRemaining = loadRate; 
-			Rigidbody snowball = Instantiate(projectile,transform.position,transform.rotation)as Rigidbody;
-			snowball.velocity = transform.TransformDirection(new Vector3(0, 0,speed));
+			Vector3 position= new Vector3(Input.mousePosition.x, Input.mousePosition.y,distance);  
+			position= Camera.main.ScreenToWorldPoint(position); 
+
+			//Rigidbody snowball = Instantiate(projectile,transform.position,transform.rotation)as Rigidbody;
+			GameObject snowball= Instantiate (projectile, transform.position, Quaternion.identity) as GameObject; 
+			snowball.transform.LookAt(position); 
+			snowball.GetComponent<Rigidbody>().AddForce(snowball.transform.forward *1000); 
+			snowball.GetComponent<Rigidbody>().velocity = transform.TransformDirection(new Vector3(0, 0,speed));
 		}
 	}
 }
