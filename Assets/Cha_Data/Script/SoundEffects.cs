@@ -18,11 +18,11 @@ public class SoundEffects : MonoBehaviour {
 		timer -= 1; 
 
 		if (Input.GetButtonDown ("Vertical")) {
-			ActionAudio.clip= audios[0]; 
-			ActionAudio.Play (); 
+			ActionAudio.clip = audios [0];
+			ActionAudio.Play();
 		}
 		if (Input.GetButtonDown ("Fire1")) {
-			ActionAudio.clip= audios[1]; 
+			ActionAudio.clip = audios [1]; 
 			ActionAudio.Play (); 
 		}
 		/*if (knight.transform.position.x - slime.transform.position.x <= 10  ) {

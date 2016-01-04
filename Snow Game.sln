@@ -5,6 +5,8 @@ Project("{C0BFCA04-B22B-E6B2-B02D-C3F5992F1D13}") = "Snow Game", "Assembly-CShar
 EndProject
 Project("{C0BFCA04-B22B-E6B2-B02D-C3F5992F1D13}") = "Snow Game", "Assembly-CSharp.csproj", "{BCB0AA95-ED1E-EF1D-6484-BF6333D02F45}"
 EndProject
+Project("{C0BFCA04-B22B-E6B2-B02D-C3F5992F1D13}") = "Snow Game", "Assembly-CSharp-Editor.csproj", "{DCA7D38A-C62D-9244-8885-AB26CC0CEA51}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,11 +21,15 @@ Global
 		{BCB0AA95-ED1E-EF1D-6484-BF6333D02F45}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BCB0AA95-ED1E-EF1D-6484-BF6333D02F45}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BCB0AA95-ED1E-EF1D-6484-BF6333D02F45}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCA7D38A-C62D-9244-8885-AB26CC0CEA51}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCA7D38A-C62D-9244-8885-AB26CC0CEA51}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCA7D38A-C62D-9244-8885-AB26CC0CEA51}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCA7D38A-C62D-9244-8885-AB26CC0CEA51}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-								GlobalSection(MonoDevelopProperties) = preSolution
+																													GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
