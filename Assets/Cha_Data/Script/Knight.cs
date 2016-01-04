@@ -30,7 +30,7 @@ public class Knight : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other) {
 		if (other.CompareTag("snowball")) {
-			health -= 1;
+			health -= 5;
 			Destroy (other.gameObject);
 			KnightAnimator.Play ("Damage");
 		}
